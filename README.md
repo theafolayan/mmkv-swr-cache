@@ -9,19 +9,19 @@ First, install the package using your favorite package manager:
 Expo
 
 ```bash
-npx expo install mmkv-swr-cache
+npx expo install @theafolayan/mmkv-swr-cache
 ```
 
 Yarn
 
 ```bash
-yarn add mmkv-swr-cache
+yarn add @theafolayan/mmkv-swr-cache
 ```
 
 NPM
 
 ```bash
-npm install mmkv-swr-cache
+npm install @theafolayan/mmkv-swr-cache
 ```
 
 Ensure you have swr and react-native-mmkv installed as well:
@@ -40,7 +40,7 @@ To use the MMKV cache provider in your React Native project, wrap your applicati
 ```javascript
 import React from 'react';
 import { SWRConfig } from 'swr';
-import MMKVCacheProvider from 'mmkv-swr-cache';
+import MMKVCacheProvider from '@theafolayan/mmkv-swr-cache';
 
 const App: React.FC = () => {
   return (
