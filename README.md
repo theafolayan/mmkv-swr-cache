@@ -59,4 +59,4 @@ This project is licensed under the MIT License
 
 ## Support
 
-To keep this library maintained and up-to-date please consider [starring the repo](https://github.com/theafolayan/mmkv-swr-cache) and [following me on Twitter (x)](https://x.com/theafolayan)
+To show your support for this project (if you found it useful of course) please consider [starring the repo](https://github.com/theafolayan/mmkv-swr-cache) and [following me on Twitter (x)](https://x.com/theafolayan)
