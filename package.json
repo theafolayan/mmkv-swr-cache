@@ -1,6 +1,6 @@
 {
   "name": "@theafolayan/mmkv-swr-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A custom cache provider for SWR using MMKV storage",
   "main": "dist/MMKVCacheProvider.js",
   "types": "dist/MMKVCacheProvider.d.ts",
@@ -20,7 +20,7 @@
   "author": "@theafolayan",
   "license": "MIT",
   "dependencies": {
-    "react-native-mmkv": "^2.12.2",
+    "react-native-mmkv": "^4.0.0",
     "swr": "^2.2.5"
   },
   "devDependencies": {
