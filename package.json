@@ -1,6 +1,6 @@
 {
   "name": "@theafolayan/mmkv-swr-cache",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A custom cache provider for SWR using MMKV storage",
   "main": "dist/MMKVCacheProvider.js",
   "types": "dist/MMKVCacheProvider.d.ts",
