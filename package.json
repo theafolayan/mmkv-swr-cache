@@ -21,6 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "react-native-mmkv": "^4.0.0",
+    "react-native-nitro-modules": "^0.31.4",
     "swr": "^2.2.5"
   },
   "devDependencies": {

@@ -14,7 +14,7 @@ const MMKVCacheProvider = () => {
         },
         set(key, value) {
             if (value === undefined) {
-                storage_1.storage.delete(key);
+                storage_1.storage.remove(key);
                 cache.delete(key);
             }
             else {
@@ -23,7 +23,7 @@ const MMKVCacheProvider = () => {
             }
         },
         delete(key) {
-            storage_1.storage.delete(key);
+            storage_1.storage.remove(key);
             cache.delete(key);
         },
         keys() {
