@@ -15,7 +15,7 @@ const MMKVCacheProvider = (): Cache => {
     },
     set(key: string, value: any) {
       if (value === undefined) {
-        storage.delete(key);
+        storage.remove(key);
         cache.delete(key);
       } else {
         storage.set(key, JSON.stringify(value));
@@ -23,7 +23,7 @@ const MMKVCacheProvider = (): Cache => {
       }
     },
     delete(key: string) {
-      storage.delete(key);
+      storage.remove(key);
       cache.delete(key);
     },
     keys(): IterableIterator<string> {
